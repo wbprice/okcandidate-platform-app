@@ -1,24 +1,26 @@
 {
-  "name": "okcandidate-platform-app",
-  "version": "0.1.0",
-  "description": "A server that delivers the frontend for OKCandidate",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/code4hr/okcandidate-platform-app.git"
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.149",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "Civic Hacking",
-    "Code for America",
-    "Voting"
+    "gatsby"
   ],
-  "author": "Code for Hampton Roads Contributors",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/code4hr/okcandidate-platform-app/issues"
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/code4hr/okcandidate-platform-app#readme"
+  "devDependencies": {
+    "prettier": "^1.10.1"
+  }
 }
